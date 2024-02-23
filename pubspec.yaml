@@ -1,0 +1,35 @@
+name: cresas
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.6
+  flutter_inappwebview:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/onb/
+    - images/game/green/
+    - images/game/orange/
+    - images/game/
+  # Uncomment and add your fonts here if needed
+  # fonts:
+  #   - family: YourFontFamily
+  #     fonts:
+  #       - asset: fonts/YourFontFamily-Regular.ttf
+  #       - asset: fonts/YourFontFamily-Italic.ttf
+  #         style: italic
